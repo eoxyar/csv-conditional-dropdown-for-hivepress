@@ -17,5 +17,8 @@ In wp settings>location-selector
 you will find the location selector where you can change
 the display areas for the attributes and change the labels,
 you can also choose which .csv file you want to use.
+The .csv file is located in this plugin folder.
 
 <img width="1258" height="586" alt="image" src="https://github.com/user-attachments/assets/7b8c3784-d734-4b3e-b4db-0afcef5592e0" />
+
+Selector js must be improved. When the category is changed, the page must be refreshed to correctly link the values of the second field to the first list. without refresh all values are displayed in the second drop-down list.
