@@ -1,0 +1,14 @@
+Adding 2 cols conditional dropdown in listing submit page/
+I created some "cosmetics" in the first version to be more universal.
+I continued with this selector to see how many lines
+it reads in a reasonable time or if it is
+an option if we have an attribute with thousands of options.
+I wonder which is more efficient, faster.
+I leave it to you to continue testing it, maybe it is good for something.
+
+In wp settings>location-selector
+/wp-admin/options-general.php?page=location-selector-settings
+
+you will find the location selector where you can change
+the display areas for the attributes and change the labels,
+you can also choose which .csv file you want to use.
