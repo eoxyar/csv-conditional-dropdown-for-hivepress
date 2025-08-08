@@ -1,0 +1,12 @@
+Can uncomment searchable and filterable in city attributes
+if  make the searchable filed text, not select.
+
+
+
+'search_field'    => [
+				'label'     => 'City',
+				'type'      => 'select',//<=HERE PUT TEXT
+				'options'   => $city_options,
+				'_external' => true,
+				'_order'    => 30,
+			],			
