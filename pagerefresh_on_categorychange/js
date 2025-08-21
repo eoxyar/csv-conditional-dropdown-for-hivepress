@@ -1,0 +1,6 @@
+jQuery(function($){
+  // Works even if HivePress re-renders the field later
+  $(document).on('change', 'select[name="categories"], select[name="categories[]"]', function(){
+    window.location.reload();
+  });
+});
