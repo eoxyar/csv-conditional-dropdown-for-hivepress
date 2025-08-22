@@ -1,6 +1,24 @@
-jQuery(function($){
+/*jQuery(function($){
   // Works even if HivePress re-renders the field later
   $(document).on('change', 'select[name="categories"], select[name="categories[]"]', function(){
     window.location.reload();
   });
 });
+*/
+jQuery(function($){
+  // Listen for the 'change' event on the category select fields.
+  $(document).on('change', 'select[name="categories"], select[name="categories[]"]', function(){
+    
+    // Check if the selected value is not empty (i.e., a category has actually been chosen).
+    if ($(this).val()) {
+      
+      // Introduce a small 100ms delay to allow other scripts to finish.
+      setTimeout(function(){
+        window.location.reload();
+      }, 100);
+    }
+  });
+});
+
+
+
