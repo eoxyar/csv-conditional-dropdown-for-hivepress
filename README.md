@@ -22,3 +22,4 @@ The .csv file is located in this plugin folder.
 <img width="1258" height="586" alt="image" src="https://github.com/user-attachments/assets/7b8c3784-d734-4b3e-b4db-0afcef5592e0" />
 
 Hope selector js work well for you and do not cuasing page reload
+Use  pagerefresh.js if you want to populate cities according county after category is changed in the for filling process and need reselect them.
