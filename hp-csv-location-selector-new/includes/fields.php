@@ -152,13 +152,11 @@ add_filter(
                 'options'   => $city_options,
                 'required'  => true,
             ],
-            // Removed 'search_field' type 'text' if it should be a select for filterable attributes
-            // HivePress search fields for 'select' attributes typically use a select input.
-            // If you want it as a text search, you might need custom handling.
-            // For consistent searchable/filterable with select, stick to 'select' type in search_field as well.
+           
+            // Stick to 'select' type in search_field .
             'search_field'  => [
                 'label' => $city_label,
-                'type'      => 'text', // Changed to 'select' for consistency with filterable
+                'type'      => 'select', // Changed to 'select' for consistency with filterable
                 'options'   => $city_options,
                 '_external' => true,
                 '_order'    => 30,
