@@ -22,14 +22,14 @@ add_filter('hivepress/v1/forms/listing_submit', function ($form) {
         'label' => $county_label, // Use the custom label
         'options' => array_combine($counties, $counties),
         'required' => true,
-        '_order' => 10,
+        '_order' => 2,
     ];
     $form['fields']['city'] = [
         'type' => 'select',
         'label' => $city_label, // Use the custom label
         'options' => $cities,
         'required' => true,
-        '_order' => 11,
+        '_order' => 3,
     ];
 
     return $form;
