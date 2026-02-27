@@ -1,8 +1,8 @@
 WP Plugins
-The new version v14 is installable plugin.
+The new version v18 , is installable plugin, fully functional, manageble in admin side.
 The first version must unzip first. There are 2 earlier test versions.
 Adding 2 cols conditional dropdown in listing submit page/
-New version contain some "cosmetics" of the first version making more universal.
+Contain some "cosmetics" of the first version making more universal.
 I continued with this selector to see how many lines
 it reads in a reasonable time or if it is
 an option if we have an attribute with thousands of options.
@@ -24,3 +24,4 @@ The .csv file is located in this plugin folder.
 Hope selector js work well for you and do not cuasing page reload
 Use  pagerefresh.js if you want to populate cities according county after category is changed in the form filling process and need reselect them.
 IMPORTANT ===== do not let spaces beetwen text in your csv file use  "-"  or  "_"  and also special characters  are prohibited like ' .
+Try hivepress conditional dropdowns v18, (27.02.2026)
