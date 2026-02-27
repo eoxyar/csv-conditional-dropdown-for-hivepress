@@ -28,3 +28,10 @@ Try hivepress conditional dropdowns v18, (27.02.2026)
 <img width="1294" height="939" alt="Screenshot" src="https://github.com/user-attachments/assets/e243d7ee-b604-47ac-be16-3921836e3db7" />
 <img width="1303" height="942" alt="Screenshot2" src="https://github.com/user-attachments/assets/a390a987-4adc-4fb9-8530-10b1f122ec18" />
 <img width="1329" height="942" alt="Screenshot3" src="https://github.com/user-attachments/assets/6d672f54-b5b8-4072-aee2-d62f267dbb7e" />
+
+Create a pair: give it a name, set parent slug + label and child slug + label.
+Optionally restrict to one or more listing categories. Leave empty to show in all categories.
+Go to "Conditional Data" and enter rows: parent value → child value. Or use the CSV import.
+The fields appear automatically in Add Listing, Edit Listing, Search and Filter — no code needed.
+Can't filter Alfa Romeo; must use Alfa_Romeo. NO SPACES or SPECIAL CHARACTERS in fields.
+DON'T FORGET, this is a PLUGIN; if you disable it, data will DISAPPEAR from listings.
