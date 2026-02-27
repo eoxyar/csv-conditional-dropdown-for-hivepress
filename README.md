@@ -1,5 +1,5 @@
 WP Plugins
-The new version is installable plugin.
+The new version v14 is installable plugin.
 The first version must unzip first. There are 2 earlier test versions.
 Adding 2 cols conditional dropdown in listing submit page/
 New version contain some "cosmetics" of the first version making more universal.
